@@ -44,7 +44,7 @@ Each run reports the execution time, number of matches, visited search states an
 
 A short demonstration of the complete workflow is shown below:
 
-[VIDEO / GIF HERE]
+[Watch the demo](demo.mp4)
 
 The following sections explain how to use custom graph data and integrate the matchers into another Java application.
 
