@@ -115,3 +115,10 @@ Matcher vf2 = new VF2();
 The returned mappings represent the matches of the pattern in the target graph.
 
 The command-line application and experiment framework are provided for graph generation, benchmarking and comparison. An application integrating the matchers directly can use its own entry point.
+
+![](./video/image.jpg)
+
+## Requirements
+
+- Java 25
+
