@@ -15,6 +15,12 @@ The project implements and compares four pattern-matching algorithms:
 
 The main focus of the experimental comparison is the Ullmann and VF2 algorithms, adapted to support multigraph-specific properties such as parallel edges and self-loops.
 
+## Requirements
+
+- Java 25
+- Maven
+
+
 ## Quick Start
 
 The project can be run directly from the command line using Maven.
@@ -50,6 +56,14 @@ For a higher-quality version, download the full [demo video](./video/demo.mp4).
 
 The following sections explain how to use custom graph data and integrate the matchers into another Java application.
 
+## Architecture
+
+The project is organized around a command-line interface and an experiment
+framework. The matching algorithms share a common `Matcher` interface,
+allowing the same experiment to be executed with different implementations.
+
+![](./video/image.jpg)
+
 ## Using the algorithms
 
 ### Using your own graph and pattern
@@ -74,7 +88,7 @@ The implementation supports multigraph-specific properties such as:
 * parallel edges
 * self-loops
 * edge multiplicity
-* 
+
 ### Running from an IDE
 
 The command-line interface can then be used to generate experiments and run the implemented algorithms.
@@ -115,10 +129,3 @@ Matcher vf2 = new VF2();
 The returned mappings represent the matches of the pattern in the target graph.
 
 The command-line application and experiment framework are provided for graph generation, benchmarking and comparison. An application integrating the matchers directly can use its own entry point.
-
-![](./video/image.jpg)
-
-## Requirements
-
-- Java 25
-
