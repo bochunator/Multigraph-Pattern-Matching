@@ -50,9 +50,7 @@ Each run reports the execution time, number of matches, visited search states an
 
 A short demonstration of the complete workflow is shown below:
 
-![Quick Start Demo](./video/demo.gif)
-
-For a higher-quality version, download the full [demo video](./video/demo.mp4).
+https://github.com/user-attachments/assets/6ecc315a-e9a7-4958-b0df-c276d0797c53
 
 The following sections explain how to use custom graph data and integrate the matchers into another Java application.
 
