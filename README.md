@@ -60,7 +60,7 @@ The project is organized around a command-line interface and an experiment
 framework. The matching algorithms share a common `Matcher` interface,
 allowing the same experiment to be executed with different implementations.
 
-![](./video/image.jpg)
+<img width="1032" height="1168" alt="image" src="https://github.com/user-attachments/assets/0dc23a90-7749-4847-9154-86c1b12ed94a" />
 
 ## Using the algorithms
 
